@@ -1,0 +1,49 @@
+canvas {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+  }
+.audio-player {
+    position: absolute;
+    top: 95%;
+    left: 34.5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: maroon;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgrey;
+}
+
+input[type="range"] {
+    flex-grow: 1;
+    cursor: pointer;
+}
+.text {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding: 200px;
+    color: maroon;
+    font-family: cursive;
+    font-size: 40px;
+}
